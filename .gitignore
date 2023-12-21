@@ -13,6 +13,9 @@
 /.next/
 /out/
 
+# dev implementation notes
+__steps2Implement.ts
+
 # production
 /build
 
