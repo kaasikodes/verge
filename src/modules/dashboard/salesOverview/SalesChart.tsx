@@ -20,7 +20,8 @@ const SalesChart: React.FC<TProps> = ({
       <div className="flex justify-stretch gap-4 h-full items-center w-full">
         <IconButton
           // TODO: Make this round to reflect as in design
-          size="sm"
+          isRound
+          size="10px"
           aria-label="previous"
           icon={<ChevronLeftIcon />}
         />
@@ -38,7 +39,12 @@ const SalesChart: React.FC<TProps> = ({
             labels={data.labels}
           />
         </div>
-        <IconButton size="sm" aria-label="next" icon={<ChevronRightIcon />} />
+        <IconButton
+          isRound
+          size="10px"
+          aria-label="next"
+          icon={<ChevronRightIcon />}
+        />
       </div>
     </GeneralUILoader>
   );
