@@ -94,7 +94,7 @@ const WelcomeMessage: React.FC<{ name: string }> = ({ name }) => {
         />
         <h6 className="font-bold text-2xl">Hi {name}</h6>
       </div>
-      <span className="">Welcome to your Dashboard</span>
+      <span className="font-light">Welcome to your Dashboard</span>
     </div>
   );
 };

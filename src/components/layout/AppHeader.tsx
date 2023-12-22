@@ -69,7 +69,9 @@ const LogoSection = () => {
   return (
     <div className="flex flex-col gap-1">
       <Image alt="logo" src={LightLogo} height={40} width={80} />
-      <span className="text-xs">For Mainstone</span>
+      <span className="text-sm font-proxima tracking-widest">
+        For Mainstone
+      </span>
     </div>
   );
 };

@@ -50,8 +50,8 @@ export const AppActionBtn: React.FC<
   return (
     <button
       onClick={onClick}
-      className={`flex gap-2 items-center px-3 py-3 rounded-md hover:bg-[#F5F5F5] hover:text-slate-600 ${
-        isActive ? "bg-[#F5F5F5]" : ""
+      className={`flex gap-2  text-sm items-center px-3 py-3 rounded-md hover:bg-[#F5F5F5] hover:text-slate-600 hover:shadow-md ${
+        isActive ? "bg-[#F5F5F5] shadow-sm font-bold" : ""
       }`}
     >
       {iconSrc ? (

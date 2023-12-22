@@ -17,7 +17,7 @@ type TProps = {
 };
 const PrimaryLayout: React.FC<TProps> = ({ children }) => {
   return (
-    <div className="bg-[#E4E4E4] min-h-screen">
+    <div className="bg-[#E4E4E4] min-h-screen font-euclid">
       {/* GlobalSupport */}
       <GlobalSupport />
       {/* AppHeader */}

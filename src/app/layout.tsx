@@ -20,19 +20,29 @@ const proxima = localFont({
 const euclid = localFont({
   src: [
     {
+      path: "./EuclidLight.ttf",
+      weight: "300",
+      style: "light",
+    },
+    {
       path: "./EuclidRegular.ttf",
       weight: "400",
       style: "normal",
     },
     {
       path: "./EuclidMedium.ttf",
-      weight: "400",
-      style: "normal",
+      weight: "500",
+      style: "medium",
+    },
+    {
+      path: "./EuclidSemiBold.ttf",
+      weight: "600",
+      style: "semibold",
     },
     {
       path: "./EuclidBold.ttf",
       weight: "700",
-      style: "normal",
+      style: "bold",
     },
   ],
   display: "swap",
