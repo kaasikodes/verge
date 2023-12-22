@@ -61,8 +61,8 @@ const OverviewDetailCard: React.FC<TProps> = ({
         {/* TODO: Add controls for count info */}
         <div className="mt-auto flex justify-end gap-4 items-center">
           <span>1/5</span>
-          <IconButton aria-label="prev" icon={<ChevronLeftIcon />} />
-          <IconButton aria-label="next" icon={<ChevronRightIcon />} />
+          <IconButton aria-label="prev" icon={<ChevronLeftIcon />} isRound />
+          <IconButton aria-label="next" icon={<ChevronRightIcon />} isRound />
         </div>
       </CardBody>
     </Card>
