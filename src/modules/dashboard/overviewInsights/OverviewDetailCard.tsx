@@ -42,12 +42,14 @@ const OverviewDetailCard: React.FC<TProps> = ({
     <Card className="h-full">
       <CardHeader className="flex justify-between items-baseline">
         <div className="flex flex-col gap-2">
-          <span className="text-[#12D8A0]">{highlight}</span>
-          <Heading>{title}</Heading>
-          <span>{subText}</span>
+          <span className="text-[#12D8A0] font-semibold text-lg">
+            {highlight}
+          </span>
+          <h6 className="text-4xl font-bold">{title}</h6>
+          <span className="text-xl font-normal text-[#606060]">{subText}</span>
         </div>
         {handleViewAll && (
-          <button className="text-sm text-[#CBCBCB]">
+          <button className="text-lg text-[#CBCBCB]">
             <span>View All</span>
             <ChevronRightIcon />
             {/* TODO: Use the right outlined icon */}
