@@ -20,7 +20,7 @@ const OverviewInsightCard: React.FC<TProps> = ({
       <CardHeader className="flex justify-between items-baseline">
         <div className="flex items-center gap-2">
           <Image alt={title} src={iconSrc} width={20} height={20} />
-          <h6 className="font-bold text-lg">{title}</h6>
+          <h6 className="font-bold">{title}</h6>
         </div>
         {handleViewAll && (
           <button className="text-sm text-[#CBCBCB]">
@@ -33,9 +33,9 @@ const OverviewInsightCard: React.FC<TProps> = ({
       <CardBody className="flex gap-4 items-center w-full justify-stretch">
         {items.map((item, i) => (
           <Card key={i} border={`1px solid #E4E4E4`} className="flex-1">
-            <CardBody className="flex flex-col gap-4 items-center text-center">
-              <Heading size="lg">{item.value}</Heading>
-              <p className={`text-slate-600`}>{item.title}</p>
+            <CardBody className="flex flex-col gap-2 items-center text-center">
+              <Heading size="md">{item.value}</Heading>
+              <p className={`text-slate-600 text-sm`}>{item.title}</p>
             </CardBody>
           </Card>
         ))}
