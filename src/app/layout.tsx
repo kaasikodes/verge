@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "react-calendar/dist/Calendar.css";
 import "./globals.css";
 import { AppThemeProvider } from "~~/components/providers";
 import { PrimaryLayout } from "~~/components/layout";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "veerge",
