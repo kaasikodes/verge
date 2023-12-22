@@ -8,6 +8,11 @@ const config: Config = {
     "./src/modules/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      proxima: ["var(--font-proxima)"],
+      sans: ["var(--font-euclid)", "var(--font-inter)", "sans-serif"],
+      euclid: ["var(--font-euclid)"],
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
