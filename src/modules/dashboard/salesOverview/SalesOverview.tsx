@@ -36,7 +36,7 @@ export const SalesOverview: React.FC = () => {
         )}
       </div>
       <div className="Container grid grid-cols-4 gap-4 ">
-        <div className="col-span-2 row-span-2">
+        <div className="col-span-4 lg:col-span-2 row-span-2">
           <SalesChart
             data={{
               labels: MONTH_CHART_LABELS,

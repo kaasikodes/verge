@@ -24,10 +24,10 @@ const DashboardContainer: React.FC<TProps> = ({ isLoading, data }) => {
         <div className="col-span-3 row-span-1">
           <WelcomeMessage name="Ahmed" />
         </div>
-        <div className="col-span-2 row-span-2">
+        <div className="col-span-3 lg:col-span-2 row-span-2">
           <SalesOverview />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-3 lg:col-span-1">
           <OverviewInsightCard
             iconSrc={BlueHomeIcon}
             items={[
@@ -39,7 +39,7 @@ const DashboardContainer: React.FC<TProps> = ({ isLoading, data }) => {
             handleViewAll={() => {}}
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-3 lg:col-span-1">
           <OverviewInsightCard
             iconSrc={BlueProfileIcon}
             items={[
@@ -52,10 +52,10 @@ const DashboardContainer: React.FC<TProps> = ({ isLoading, data }) => {
             handleViewAll={() => {}}
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-3 lg:col-span-1">
           <ListingOverviewCard title="Listing Overview" />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-3 lg:col-span-1">
           <OverviewDetailCard
             handleViewAll={() => {}}
             title="₦ 0.00"
@@ -69,7 +69,7 @@ const DashboardContainer: React.FC<TProps> = ({ isLoading, data }) => {
             ]}
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-3 lg:col-span-1">
           <OverviewDetailCard
             title="₦ 0.00"
             subText="Total Sold"

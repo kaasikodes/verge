@@ -19,13 +19,7 @@ const OverviewInsightCard: React.FC<TProps> = ({
     <Card>
       <CardHeader className="flex justify-between items-baseline">
         <div className="flex items-center gap-2">
-          <Image
-            alt={title}
-            src={iconSrc}
-            width={20}
-            height={20}
-            className="rounded-full"
-          />
+          <Image alt={title} src={iconSrc} width={20} height={20} />
           <h6 className="font-bold text-lg">{title}</h6>
         </div>
         {handleViewAll && (
