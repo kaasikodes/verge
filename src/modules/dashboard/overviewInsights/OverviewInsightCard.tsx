@@ -20,7 +20,7 @@ const OverviewInsightCard: React.FC<TProps> = ({
       <CardHeader className="flex justify-between items-baseline">
         <div className="flex items-center gap-2">
           <Image alt={title} src={iconSrc} width={20} height={20} />
-          <h6 className="font-bold">{title}</h6>
+          <h6 className="font-semibold text-base text-[#3D3D3D]">{title}</h6>
         </div>
         {handleViewAll && (
           <button className="text-sm text-[#CBCBCB]">

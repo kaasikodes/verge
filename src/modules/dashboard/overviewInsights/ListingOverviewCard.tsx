@@ -28,7 +28,7 @@ const ListingOverviewCard: React.FC<TProps> = ({
     <Card>
       <CardHeader className="flex justify-between items-baseline">
         <div className="flex items-center gap-2">
-          <Heading size="md">{title}</Heading>
+          <h6 className="text-2xl font-bold capitalize">{title}</h6>
         </div>
         {handleViewAll && (
           <button className="text-sm text-[#CBCBCB]">
