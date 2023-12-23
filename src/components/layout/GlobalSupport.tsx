@@ -4,10 +4,10 @@ import { BulbIcon, CloseIcon } from "~~/assets";
 
 const GlobalSupport = () => {
   return (
-    <button className="z-50 px-4 py-4 bg-[#4545FE] text-white gap-4  flex items-center rounded-full justify-center fixed bottom-10 right-8">
-      <Image alt="support" src={BulbIcon} height={24} width={24} />
+    <button className="z-50 px-3 py-3 hover:bg-[#4d4dce] bg-[#4545FE] text-white gap-3 shadow-md flex items-center rounded-full justify-center fixed bottom-10 right-8">
+      <Image alt="support" src={BulbIcon} height={20} width={20} />
       <span>Veerge Assistant</span>
-      <Image alt="close" src={CloseIcon} height={24} width={24} />
+      <Image alt="close" src={CloseIcon} height={20} width={20} />
     </button>
   );
 };

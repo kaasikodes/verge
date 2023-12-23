@@ -6,7 +6,7 @@ const AppFooter = () => {
   return (
     <footer className="w-full flex gap-4 justify-center items-center py-6">
       <Image alt="encryption" src={LockIcon} height={24} width={24} />
-      <span>End-to-end encryption</span>
+      <span className="text-[#919191]">End-to-end encryption</span>
     </footer>
   );
 };

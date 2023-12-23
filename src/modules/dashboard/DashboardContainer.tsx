@@ -74,6 +74,13 @@ const DashboardContainer: React.FC<TProps> = ({ isLoading, data }) => {
             title="₦ 0.00"
             subText="Total Sold"
             highlight="Top Selling"
+            items={[
+              {
+                name: "Whole units sold",
+                value: "0",
+                valueTextClassName: "text-[#606060]",
+              },
+            ]}
           />
         </div>
       </div>
