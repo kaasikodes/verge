@@ -20,7 +20,7 @@ const AppSubHeader: React.FC<TProps> = ({ items, allowSearch = true }) => {
   const pathname = usePathname();
   return (
     <div className="border-b flex w-full lg:flex-row flex-col justify-between items-center py-2 Container bg-white">
-      <div className="flex gap-4 items-center flex-1">
+      <div className="flex gap-4 flex-wrap lg:flex-nowrap lg:justify-start justify-center items-center flex-1">
         {items.map((item, i) => (
           <LinkBtn key={i} {...item} isActive={pathname === item.link} />
         ))}
@@ -63,7 +63,7 @@ export const AppActionBtn: React.FC<
 };
 const SearchBar = () => {
   return (
-    <div className="bg-red-200w w-2/6 flex items-center justify-end">
+    <div className=" lg:w-2/6 flex items-center lg:justify-end">
       <Input placeholder="Search... properties, customers here" bg="#E4E4E4" />
       <button className="z-10 -ml-8 bg-[#E4E4E4]">
         <Image src={SearchIcon} alt="search" height={24} width={24} />
